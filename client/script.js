@@ -61,7 +61,7 @@ const handleSubmit = async (e) => {
   let messageDiv = document.getElementById(uniqueId)
   loader(messageDiv)
 
-  const response = await fetch("https://coding-ai-assistant-bif6.vercel.app/", {
+  const response = await fetch("https://localhost:5000/", {
     method: "POST",
     headers: {
       "content-type": "application/json"
