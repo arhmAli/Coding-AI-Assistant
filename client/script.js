@@ -61,7 +61,7 @@ const handleSubmit = async (e) => {
   let messageDiv = document.getElementById(uniqueId)
   loader(messageDiv)
 
-  const response = await fetch("https://localhost:5000/", {
+  const response = await fetch("https://noob-gpt.up.railway.app/", {
     method: "POST",
     headers: {
       "content-type": "application/json"
